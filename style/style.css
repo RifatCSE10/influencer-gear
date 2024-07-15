@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* <=======================================>
+            Header section 
+   <=======================================> */
+
+.header {
+  max-width: 1324px;
+  border: 1px solid tomato;
+  margin: 0 auto;
+}
+
+.navbar {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.navbar h2 {
+  color: rgb(58, 58, 58);
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 0px;
+  text-align: left;
+  cursor: pointer;
+  margin-left: 5%;
+}
+
+.navbar .navlinks {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* gap: 30px; */
+}
+
+.navbar .navlinks .navitem .navlink {
+  text-decoration: none;
+  color: rgb(58, 58, 58);
+  font-family: Poppins;
+  font-size: 1rem;
+  font-weight: 600;
+  /* line-height: 24px; */
+  letter-spacing: 0px;
+  text-align: left;
+  text-transform: capitalize;
+  transition: 0.4s all;
+  padding: 34px 48px;
+}
+
+.navbar .navlinks .navitem .navlink:hover {
+  color: tomato;
+}
+
+.banner {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 133px;
+  flex-wrap: wrap;
+}
+.banner-text h1 {
+  color: rgb(58, 58, 58);
+  font-family: Poppins;
+  font-size: 2.3rem;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.banner-text p {
+  margin-top: 16px;
+  color: rgb(58, 58, 58);
+  font-family: Poppins;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.banner-text #banner-btn {
+  margin-top: 16px;
+  width: 196px;
+  height: 44px;
+  border-radius: 41px;
+  background: rgb(224, 44, 109);
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 1rem;
+  font-weight: 700;
+  /* line-height: 24px; */
+  letter-spacing: 0px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+
+.banner-img-container {
+  width: 475px;
+  height: 475px;
+  position: relative;
+}
+
+.banner-img-container img {
+  width: 100%;
+}
+
+.banner-img-container .img-box {
+  width: 440px;
+  height: 414px;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+}
+
+.banner-img-container .img-box img {
+  width: 100%;
+}

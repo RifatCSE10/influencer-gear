@@ -1,0 +1,43 @@
+@media screen and (max-width:576px) {
+    .navbar{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .banner{
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    .banner-text h1,.banner-text p{
+        text-align: center;
+    }
+
+    .banner-text #banner-btn{
+        position: relative;
+        left: 50%;
+        margin-left: -98px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:1000px) {
+    .navbar{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .banner{
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    .banner-text h1,.banner-text p{
+        text-align: center;
+    }
+
+    .banner-text #banner-btn{
+        position: relative;
+        left: 50%;
+        margin-left: -98px;
+    }
+}
