@@ -1,4 +1,4 @@
-@media screen and (min-width:300px) and (max-width:576px) {
+@media screen and (min-width:200px) and (max-width:576px) {
     .header{
         margin: 0 auto;
     }
@@ -49,6 +49,10 @@
     .banner{
         flex-direction: column-reverse;
         gap: 50px;
+    }
+    
+    .navbar .navlinks{
+        flex-direction: column;
     }
 
     .banner-text h1,.banner-text p{
