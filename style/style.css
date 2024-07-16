@@ -128,3 +128,28 @@
 .banner-img-container .img-box img {
   width: 100%;
 }
+
+
+/* <=======================================>
+            SPonser section 
+   <=======================================> */
+
+  .sponser{
+    margin-top: 65px;
+    padding: 35px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    flex-wrap: wrap;
+ }
+
+.sponser .sponsor-img{
+  width: 55px;
+  height: 30px;
+}
+
+.sponser .sponsor-img img{
+  width: 100%;
+  height: 100%;
+}
