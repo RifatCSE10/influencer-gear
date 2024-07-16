@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 /* <=======================================>
             Header section 
    <=======================================> */
@@ -239,7 +243,6 @@
 
 .featured-product .featured-description{
   width: 55%;
-  border: 1px solid red;
   padding-left: 10px;
 }
 
